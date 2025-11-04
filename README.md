@@ -1,14 +1,3 @@
-```markdown
-# FastAPI Notebook — Minimal CRUD API with Public URL
-
-This README explains how to run **`fastAPI.ipynb`**. The notebook starts a FastAPI app (in the background), exposes it via **ngrok**, and exercises the endpoints with Python `requests`.
-
----
-
-## What it does (quick map)
-
-```
-
 Notebook Cell 1: install deps → start FastAPI (Uvicorn) → open ngrok tunnel → print Public URL + /docs
 Notebook Cell 2: call the API (POST/GET/DELETE) using requests to show it works
 
